@@ -1,0 +1,27 @@
+{
+  "name": "blogful-api-2020",
+  "version": "1.0.0",
+  "description": "Blogful-api-2020",
+  "main": "server.js",
+  "dependencies": {
+    "uuid": "^8.1.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.12.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acosta816/Blogful-API-2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acosta816/Blogful-API-2020/issues"
+  },
+  "homepage": "https://github.com/Acosta816/Blogful-API-2020#readme"
+}
