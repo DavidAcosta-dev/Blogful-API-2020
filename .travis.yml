@@ -1,6 +1,10 @@
 language: node_js
 node_js: node
 deploy:
+  provider: heroku
+  api_key:
+    secure: iz3vXD9QmK1ESI0AJKsRgN7WG1kDrEQlvYpLudXbB7Q3LBMSlgCPyzctgS3H5IYMOaQngxzlBYMJa8Awk8spNV4KNT38xIDBbfEiJLD5fY5bBeveZyl3MELyiRHk9f/gLH7g1tvrQ6Gmwa5BrjqEq8zjsTB8Nq/XuPN5c4Xg+D0b74MW+qKHA/ZXavnIit8Ar1SlvvI/HGOOK1pE6QRWWMVXPuUdlLceISG9cMFA2Bd08Bv8+T5eLfHvbDwXB0waaTs24uo3To+9BnxpvAB2R4oTkjWu2QbCKrlrqqazVggClNqxbupOOU48MpIl9nBznF6HzYbvpe+kdRqWS+z6ucBibNetFLqxIzBI8G/6aZR52/Vn7YFUluHDdAM5FhQl0FbzgxXqMU8YE7mTzP4K8nfof4rcErjmt5orZLzI9qzi9n/xRloxFFvxZ7/7jbPJTLTFjdf3RTF/2QlWlyTfqMzML0Aylin/PW5C3WB9apn5oGCQVKwCXOXivpg4oF+2SRQ9JCzpkU+UYidwpoJT+qk9cagIYJbGDrqBJ7MYlK4yGHP2FDwPFk9pwUJ1emRe3DyHu3Y47G9TiBiRY/4eP5EkcNObv3D+qfjcy8cr/mU7vducMn907VysL740sfZJJwMKL9keJsuEndDne9RyiQYD6JJpOkXtw/MvW5EieL8=
+  app: obscure-wildwood-04667
   on:
     repo: Acosta816/Blogful-API-2020
   skip_cleanup: 'true'
