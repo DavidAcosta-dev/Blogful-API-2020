@@ -1,13 +1,12 @@
 const express = require("express");
 const morgan = require("morgan");
-const cors = require('cors');
+
 const app = express();
 
 const blogfulRouter = require('./blogfulRouter');
 
 //log the http layer
 app.use(morgan('common'));
-app.use(cors);
 
 app.use(express.static('public'));
 
