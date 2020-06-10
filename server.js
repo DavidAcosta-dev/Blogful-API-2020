@@ -10,6 +10,11 @@ app.use(morgan('common'));
 
 app.use(express.static('public'));
 
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/views/index.html');
+});
+
+
 app.use('/blogful', blogfulRouter);
 
 //*For the sake of testing, we are replacing this app.listen with below code. */

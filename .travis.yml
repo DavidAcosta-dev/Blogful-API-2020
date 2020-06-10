@@ -1,10 +1,2 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key:
-    secure: KcKmEwYSaGRFytPHZgvfFdvO4k7PcsCtVUiPNO81kh+2b9QecsQojzqsfOKyqEdE5YfaoCjsP/jrmCMBeiD95oAY2ma4PsrQ11+K1jJ1J00/y+nVrFgB6YiEM5zNRIc1dP28UwHrEfJ8Dmdd8I/RGynYcatiwPzFz0nu8TkmBRj0UqlcTXQ4NClIiD05OPIBz5Vp+hBTPVzlofVxMKca/TchyLmqfWsbZGZs1S51GNfAEbmD2dfL2+CNB9s1cH82ZcbzDxPOr5iCiP9Bpxy8n/PkhVLBWsYKvqco7R41LYIhqHHP4lB2ruBTPCFkl4E96fi5qZLg++fJXWdf1iCkZPeaOUztUiz98iPmZQ5zPpBrhLK/4YKIy85ZykgVZvtM/m4R22Jlo7tWJ/1az6WbcEQ+b5fIXNzOjP36kRjDJ25Qaj5gIpw6vsKlvCOBWLmNJOZsqksCNcFSwJScIzTq3LSPMF1yDHGij/AfBQGTeEKxiDYkKcDUTFRYy05JI8S0/HAxhk/6PxBqP77y7GV0CJ8DRvGgJjbeFGySMacIJ8wf5wHel1RdwhP6OmzXz6iLNzJb+PWsqlYP30/Thc+T6jPMwSnCZn026HaPg+m84VIAzrWWQlj28A8435MKTBHj4fQ/U+4ZqTKBhWZLcWiyWZ+GrYjheIukb1PZEQbwZ+g=
-  app: lit-fortress-12833
-  on:
-    repo: Acosta816/Blogful-API-2020
-  skip_cleanup: 'true'
