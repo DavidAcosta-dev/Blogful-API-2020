@@ -7,4 +7,4 @@ deploy:
   app: lit-fortress-12833
   edge: true
     repo: Acosta816/Blogful-API-2020
-  skip_cleanup: 'true'
+  skip_cleanup: 'true' 
