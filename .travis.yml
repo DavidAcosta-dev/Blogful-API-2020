@@ -2,10 +2,9 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku:git
-  api_key:
+  api_key: e078ee55-8d2b-4795-916f-430a1b761e2d
     secure: QQVVcwbPLbGodsY/PSLNLe0pdfIyFVocZPXNtWe2CQfL1AQ+4GVR7IsTt8v3laCgi6v/fc6g+8Y9lv19BVzVlOHWfbzZpq68rYGqKPEvSosoC4z9rUw0+KORJb68vmTI03txfkAaDY55LXr6T8MuRju5KTA042HW0kysrAhPBQGHB4QMeItJHzk+pJzkvxGadwFSvjoWDQ1lSUM4fVpM0PhBvwJNLlr76kP57c6jebeVBYecSRUmRr5boCezTeWOyYN+IHn+sEPteznY/CGRVlS9GxtFW/yP+tV9kMgiUSSEqT3VQCqzQGcMNvWxwPbVec0A6iUno+NzBRrLKgasQqOK60txVnWHoYOwuojoX2881xW6KyvJVgXu2bhP/mQNq65c2Z6rI/WBD9mCaXOmdM5q/xbLTCIHqOFiv9WLpURbyLEwL8aFVZF2Mi0FmAGstC7o2o/ZsKXTSNB1KAsZbzduywQh/XYo4MGB2hWKMwYBGzFGw643OGfuEEUqzFjZoJLwTdSb4/xGrcuWhhJz7lIeMkuHUVpyRTLCCcV9PjiCwJM2SSFbu1xA+UZZfC8RWcPzjXBlB/fvkaZhpaq0VX683kjQmOl42bYKniyDURXak0K1B/As9q1A21fDVDcYLG+I9XA7tMzD81EbjHDXGwbWUHeWeS9OPa1uP7n5s+4=
   app: stark-retreat-24392 # changed from Blogful-API-2020
-  edge: true
   on:
     repo: Acosta816/Blogful-API-2020
   skip_cleanup: 'true'
